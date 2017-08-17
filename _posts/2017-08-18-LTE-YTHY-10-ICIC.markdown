@@ -145,6 +145,8 @@ D答案，哈 ~ 联合检测，反正现在没提及它就不用管了。
     D -->F(半静态ICIC)
 ```
 
+![分类](/photo/InPost/20170817-5.png/)  
+
 因为报告里面分别都有如下说法：
 
 >\-	Static interference co-ordination
