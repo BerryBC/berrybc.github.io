@@ -1,0 +1,35 @@
+# Site configuration
+domain: "http://github.io"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://berrybc.github.io/" # the base hostname & protocol for your site
+permalink: /:title/
+avatar: http://berrybc.github.io/img/avatar.png
+about: http://berrybc.github.io/img/about.jpg
+favicon: http://berrybc.github.io/img/favicon.png
+basecss: 
+# Theme specific configuration
+title: SanShiShu
+description: >
+  崔秉龙。
+
+# Contact and social media links
+twitter_username: BerryCui
+github_username: berrybc
+facebook_username: 崔秉龙
+instagram_username: berry_bc_
+linkedin_username: BerryBC
+
+exclude: ['node_modules', 'gulpfile.js', 'package.json']
+
+kramdown:
+  input: GFM
+
+# If U enable the comment, edit disqus or duoshuo account
+# before deploy your webpage
+enable_comment: false
+# disqus_account: songroger
+
+gems: ['jekyll-paginate']
+# Pagination
+paginate: 5
+paginate_path: /archive/page:num
