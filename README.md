@@ -1,7 +1,15 @@
-# [murmur](http://songroger.github.io/murmur)
+# 无标题
 
-![preview](preview.png)
+纯粹试作的个人博客
 
-This is another simple theme for [jekyll](http://jekyllrb.com/).
-Try to edit `_config.yml` first before use it.
-Replace all the blabla configurations(like "avatar", "about", "title", etc.) to your owns.
+## 作用
+
+毫无作用
+
+## 做法
+
+完全不知道怎么做
+
+## 博客模板
+
+项目中的模板来自 [@songroger](https://github.com/songroger) ，特此声明。
