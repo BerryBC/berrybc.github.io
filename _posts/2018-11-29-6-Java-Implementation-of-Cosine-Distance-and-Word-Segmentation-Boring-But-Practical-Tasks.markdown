@@ -12,7 +12,7 @@ location: Guangzhou, China
 因为一个叫做`谭翠平`的女人的懒惰，使得另外一个更懒惰的人（我）作出了如此无聊的事情。
 
 而这件事情呢，就是要把一堆题目里面找出重复的然后删掉，有人会问，为什么不在`Excel`里面去重就行了呢？看到下面这图就懂了：
-![恶心的题目](photo\InPost\6-1.png)
+![恶心的题目](/photo/InPost/6-1.png)
 
 明显发现即使删掉`逗号`、`问号`等题目来去重，有些重复题目也是不能直接去重的。
 
@@ -31,10 +31,10 @@ location: Guangzhou, China
 诶，有一个[介绍](https://github.com/ysc/cws_evaluation)哦！还有评分呢~
 
 二话不说先选速度评分第二（[HanLP](https://github.com/hankcs/HanLP)，别问我不选第一，因为那个我不会用）的来用，使用效果如下：
-![很不错哦！](photo\InPost\6-2.png)
+![很不错哦！](/photo/InPost/6-2.png)
 
 但！忽然发现一个问题，这个包的字典是需要另外下载一个100M左右的字典，虽然这不是硬伤但我还是觉得很懒惰，所以选用了另外一个大小为22M的包[ansj分词器](https://github.com/ansjsun/ansj_seg)（`自定义字典`比较方便，而且直接能用）。
-![使用效果](photo\InPost\6-3.png)
+![使用效果](/photo/InPost/6-3.png)
 
 我觉得其实，差不多，但这个比`HanLP`有个不足之处就是，`空格`跟`下划线`等判断词性为`Null`，而且`加载速度`比较慢（虽然不是硬伤啦）。
 
@@ -45,7 +45,7 @@ location: Guangzhou, China
 # 4、余弦相似度。
 
 我是根据`关键词`的`词频`进行计算的，具体公式可以看 [余弦相似度_百度百科](https://www.baidu.com/link?url=JHBUmOu48NGhpUdVzNngwsOZ4WY5fKhxgZz6PCFKfFnW8O1I1IUGo7nyxIBTkgL4HmJXsMp1BU6hhXcd733LbHejGVuj800SXpN9yC7F-U_yx5loS-MvQor2PQqzzVD10UoxNNNvQ49Z5ULV9I4g__&wd=&eqid=87605740000029b7000000035bffa945)，大概思路如下：
-![好长啊....](photo\InPost\6-4.png)
+![好长啊....](/photo/InPost/6-4.png)
 
 
 具体代码如下：
@@ -127,16 +127,16 @@ location: Guangzhou, China
 因为`余弦相似度`达到多少我算是相似呢？其实我只是拍脑袋写了个80%，但我总觉得感觉还是挺好的，以下为部分结果：
 
 ##### 较好的判断出相同题目：
-![第1组](photo\InPost\6-5.png)
-![第2组](photo\InPost\6-6.png)
-![第3组](photo\InPost\6-7.png)
+![第1组](/photo/InPost/6-5.png)
+![第2组](/photo/InPost/6-6.png)
+![第3组](/photo/InPost/6-7.png)
 
 ##### 有争议的判断：
-![第1组](photo\InPost\6-8.png)
+![第1组](/photo/InPost/6-8.png)
 
 ##### 错误的判断：
-![第1组](photo\InPost\6-9.png)
-![第2组](photo\InPost\6-10.png)
+![第1组](/photo/InPost/6-9.png)
+![第2组](/photo/InPost/6-10.png)
 
 # 7、改进
 
