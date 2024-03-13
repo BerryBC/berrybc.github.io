@@ -21,6 +21,7 @@ location: Guangzhou, China
 
 因为这里是中国
 
+--
 
 办妥了许多东西
 
@@ -44,6 +45,7 @@ location: Guangzhou, China
 
 这是为的什么呢？
 
+--
 
 道德的牢笼把我们嵌套在内
 
@@ -59,6 +61,7 @@ location: Guangzhou, China
 
 却也永远不是保着就能赢的人
 
+--
 
 我
 
@@ -70,6 +73,7 @@ location: Guangzhou, China
 
 为什么不争取坐一个好一点、环境是我喜欢的牢呢？
 
+--
 
 士多门外走动人越来越多
 
@@ -79,6 +83,7 @@ location: Guangzhou, China
 
 但我是这样觉得的
 
+--
 
 “拉闸关门呗，早点回去吃个饭，今天冷哟。”
 

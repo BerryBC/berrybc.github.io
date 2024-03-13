@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  展信慰日记-12
+title:  展信慰日记-13
 date:   2018.11.11 00:15:17 +0800
 categories: 随记
 author: 崔秉龙
@@ -17,6 +17,7 @@ location: Guangzhou, China
 
 突然流起了眼泪
 
+--
 
 背后响着弦乐趁着的麦浚龙的声音
 
@@ -26,6 +27,7 @@ location: Guangzhou, China
 
 可是眼泪却忽然忍不住了
 
+--
 
 想着家应该是怎么一种存在
 
@@ -37,6 +39,7 @@ location: Guangzhou, China
 
 是你想死在那里的地方？
 
+--
 
 还想着我爸在医院的那一个多月
 
@@ -50,6 +53,7 @@ location: Guangzhou, China
 
 为什么在现在却停不住眼泪？
 
+--
 
 前阵子那本书说着
 
@@ -67,11 +71,13 @@ location: Guangzhou, China
 
 当时我是这样想着的
 
+--
 
 现在想起
 
 只是有一个延时的效果器在我内心深处扎根而已罢
 
+--
 
 模拟电路并没有延时模块
 
@@ -85,9 +91,11 @@ location: Guangzhou, China
 
 不断撷取着别的什么的生存既尊严
 
+--
 
 没错吧？
 
+--
 
 那么我还是不用玻璃门了
 
