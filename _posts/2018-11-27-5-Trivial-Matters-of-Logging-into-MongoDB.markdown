@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  伍- MongoDB登陆那些小事
-date:   2024-03-13 16:43:14 +0800
+date:   2018.11.27 00:17:27 +0800
 categories: 三世书记录
 author: 崔秉龙
 location: Guangzhou, China

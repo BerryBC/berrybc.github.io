@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  柒-关于Java变量类型定义及初始化的事情
-date:   2024-03-13 17:08:14 +0800
+date:   2018.12.06 15:19:06 +0800
 categories: 三世书记录
 author: 崔秉龙
 location: Guangzhou, China

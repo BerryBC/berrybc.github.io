@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  贰-关于路径以及文件名
-date:   2024-03-13 15:45:14 +0800
+date:   2018.11.08 14:13:25 +0800
 categories: 三世书记录
 author: 崔秉龙
 location: Guangzhou, China
