@@ -6,7 +6,7 @@ permalink: /:title/
 avatar: http://berrybc.github.io/img/avatar.png
 about: http://berrybc.github.io/img/about.jpg
 favicon: http://berrybc.github.io/img/favicon.png
-basecss: 
+basecss:
 # Theme specific configuration
 title: SanShiShu
 description: >
@@ -31,5 +31,5 @@ enable_comment: false
 
 gems: ['jekyll-paginate']
 # Pagination
-paginate: 5
+paginate: 20
 paginate_path: /archive/page:num
