@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  魔王与剑士
-date:   2018.11.13 00:06:25 +0800
+date:   2018.11.18 03:32:13 +0800
 categories: 随记
 author: 崔秉龙
 location: Guangzhou, China

@@ -1,12 +1,10 @@
 ---
 layout: post
-title:  肆-初探Maven
-date:   2018.11.20 23:45:58 +0800
-categories: 三世书记录
+title:  一张图看出你是有精神病？
+date:   2018.11.22 16:02:53 +0800
+categories: 更无聊的人生
 author: 崔秉龙
 location: Guangzhou, China
-description: 第一次探索这个包管理器
-tail: 就是完成了
 ---
 
 
