@@ -1,8 +1,8 @@
 ---
 layout: post
 title:  "Just Try The First Post"
-date:   2017-6-17 11:36:14 +0800 
-categories: temp
+date:   2017-6-17 11:36:14 +0800
+categories: 更无聊的人生
 author: BerryBC
 location: GuangZhou, China
 description: Oh just try~
