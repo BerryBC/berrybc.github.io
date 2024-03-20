@@ -2,7 +2,8 @@
 domain: "http://github.io"
 baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://berrybc.github.io/" # the base hostname & protocol for your site
-permalink: /:title/
+# permalink: /:title/
+permalink: /:categories/:title/
 avatar: http://berrybc.github.io/img/avatar.png
 about: http://berrybc.github.io/img/about.jpg
 favicon: http://berrybc.github.io/img/favicon.png
