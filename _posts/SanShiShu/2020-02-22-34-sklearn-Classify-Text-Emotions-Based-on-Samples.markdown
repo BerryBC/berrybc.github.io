@@ -30,7 +30,7 @@ location: Guangzhou, China
 
 `人工`分类页如下：
 
-![手动分类](/photo/InPost/34-1.png)
+![手动分类](/photo/InPost/34-2.png)
 
 # 4。分析用代码
 
