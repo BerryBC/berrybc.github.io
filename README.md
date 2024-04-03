@@ -1,7 +1,7 @@
 # 无标题
 
 纯粹试作的个人博客
-[berrybc.github.io](https://blog.csdn.net/BerryBC/article/details/121781072)
+[berrybc.github.io](https://berrybc.github.io)
 
 ## 作用
 
