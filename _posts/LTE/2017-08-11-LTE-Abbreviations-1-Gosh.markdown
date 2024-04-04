@@ -24,7 +24,7 @@ VRB      Virtual Resource Block            虚拟资源块
 
 RE        Resource elements                  资源单元
 
-
+--
 
 
 
@@ -44,7 +44,7 @@ EPC          Evolved Packet Core           演进分组核心网
 
 EPS           Evolved Packet System       演进分组系统
 
-
+--
 
 这些东西其实还好玩，我昨天发的那个也有解释这几个东西的关系。
 
@@ -53,7 +53,7 @@ EMM          EPS Mobility Management             EPS移动性管理
 
 ECM          EPS Connection Management        EPS连接管理
 
-
+--
 
 ![alt text](/photo/InPost/LTE/A1/image.png)
 
@@ -62,12 +62,12 @@ ECM          EPS Connection Management        EPS连接管理
 - 总有一个活动的PDN链接
 
 - 设置EPS安全上下文
-
+--
 
 
 当有RRC连接的时候，就是ECM-CONNECTED
 
-
+--
 
 其实还有很多深奥的内容。
 
@@ -79,7 +79,7 @@ P‑GW        PDN Gateway                          PDN网关
 
 PDN           Packet Data Networks              分组数据网络
 
-
+--
 
 其实如果知道了中文之后，会好理解很多，对不~？
 

@@ -27,9 +27,12 @@ CRI	CSI-RS resource indication    CSI-RS资源指示
 
 CQI	Channel Quality Indicator	    信道质量指示
 
-
+--
 
 那到底这一堆东西有什么用呢？
+
+
+--
 
 其实在“上行链路传输信道和控制信息”里面定义了很多上行的指示符，用来反馈通信期间传输的信息，um，但我不会解释这些到底有什么用(因为我也不知道)。
 
