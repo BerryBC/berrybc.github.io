@@ -39,13 +39,13 @@ location: Guangzhou, China
 
 ---
 
-![在这里插入图片描述](/photo/InPost/SanShiShu/68-2.jpeg)
+![在这里插入图片描述](/photo/InPost/SanShiShu/68-2.png)
 
 ----
 
 然后他叫下属的数据分析师论证一下，捉取下述数据
 
-![在这里插入图片描述](/photo/InPost/SanShiShu/68-3.jpeg)
+![在这里插入图片描述](/photo/InPost/SanShiShu/68-3.png)
 
 一看，Leader 发现，哎哟！在一个月内有`3单以上`的**黏性好高**啊！几乎每个月都会进行复购，所以我们必须尽快促成新来顾客三次购物。
 
