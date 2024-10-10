@@ -495,7 +495,7 @@ async def funGenArticle():
                 strArticle = response.choices[0].message.content
                 # print(strArticle)
 
-                if strArticle[:7] == "```html":
+                if strArticle[:7] == "``html":
                     strArticle = strArticle[7:]
                     strArticle = strArticle[:-3]
 
