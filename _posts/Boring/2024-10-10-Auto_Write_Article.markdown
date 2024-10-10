@@ -239,7 +239,7 @@ def funUploadImgToOffiAcc(strAccToken, strFileName):
         params = {'access_token': strAccToken, 'type': 'image'}
 
         # 设置表单数据
-        description = f'{{"title":"{strFileName}", "introduction":"{strFileName}"}}'
+        description = f'{"title":"{strFileName}", "introduction":"{strFileName}"}'
         files = {
             'media': ('jj.jpg', open(strFileName, 'rb'), 'image/jpeg'),
             'description': (None, description, 'application/json')
