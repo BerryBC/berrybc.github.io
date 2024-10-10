@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  自动写文章并发表的代码
-date:   2024-10-10 19:09:59 +0800
+date:   2024-10-10 19:09:20 +0800
 categories: 更无聊的人生
 author: 崔秉龙
 location: Guangzhou, China
