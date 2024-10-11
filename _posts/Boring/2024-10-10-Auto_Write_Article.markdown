@@ -18,7 +18,7 @@ Version: 1.0
 Author: BerryBC
 Date: 2024-10-08 17:54:50
 LastEditors: BerryBC
-LastEditTime: 2024-10-10 19:00:46
+LastEditTime: 2024-10-11 09:53:06
 '''
 
 
@@ -239,7 +239,7 @@ def funUploadImgToOffiAcc(strAccToken, strFileName):
         params = {'access_token': strAccToken, 'type': 'image'}
 
         # 设置表单数据
-        description = f'{"title":"{strFileName}", "introduction":"{strFileName}"}'
+        description = '{"title":"'+strFileName+'", "introduction":"'+strFileName+'"}'
         files = {
             'media': ('jj.jpg', open(strFileName, 'rb'), 'image/jpeg'),
             'description': (None, description, 'application/json')
@@ -369,6 +369,7 @@ dictGblCfg = {'offiAccAppid': '1024',
 
 
 
+
 async def funGenArticle():
     #               .~YG.                 ~:           ^7?55                    ..:
     #              .&@@@@!              ^&@@&?.  ..... J@@@@#........   5BB##&&@@@@5 &@@@@@@@@@@@@@@@~
@@ -394,12 +395,11 @@ async def funGenArticle():
             dictGblCfg['mysqlConn'] = mysql.connector.connect(
                 host=dictGblCfg['mysqlHosts'], user=dictGblCfg['mysqlUser'], password=dictGblCfg['mysqlPW'], port=dictGblCfg['mysqlPort'], database=dictGblCfg['mysqlDB'])
 
-            curLog = dictGblCfg['mysqlConn']
-            strLogSQL = "INSERT INTO db_genarticle.tb_hotsearch (word, create_time) VALUES (%s, now())"
-            curLog.execute(strLogSQL, ('我开机了'))
+            connLog = dictGblCfg['mysqlConn']
+            strLogSQL = "INSERT INTO db_genarticle.tb_hotsearch (word, create_time) VALUES ('我开机了', now())"
+            connLog.cursor().execute(strLogSQL)
             # 提交事务
-            curLog.commit()
-            curLog.close()
+            connLog.commit()
         except Exception as e:
             print(f'一、配置 方面错误，错误为 : {e}')
 
@@ -484,7 +484,7 @@ async def funGenArticle():
                     messages=[
                         {"role": "system", "content": '''
 你是一个文采风趣的作家，内容是结合时下热点输出文章，要求：
-1.输出内容需要以 HTML 的格式（并只生成 <body> 之中的内容，但不需要包含 <body> 标签）
+1.输出内容需要以 HTML 的格式（并只生成 <body> 之中的内容，但不需要包含 <body> 标签）。样式需要在标签中的 Style 给出。
 2.每篇文章需要在600字左右。需要在最后加入一行 3px 的白色字，内容是“文章由AI生成”，必须要是白色 1px 的！！！
 3.不需要以 Markdown 形式展示，直接输出能运行的 HTML 代码。
 '''},
@@ -495,7 +495,7 @@ async def funGenArticle():
                 strArticle = response.choices[0].message.content
                 # print(strArticle)
 
-                if strArticle[:7] == "``html":
+                if strArticle[:7] == "```html":
                     strArticle = strArticle[7:]
                     strArticle = strArticle[:-3]
 
@@ -552,9 +552,9 @@ async def funGenArticle():
         except Exception as e:
             print(f'关闭数据库链接 方面错误，错误为 : {e}')
 
-        await asyncio.sleep(1800)
+        await asyncio.sleep(300)
 
-time.sleep(120)
+time.sleep(300)
 asyncio.run(funGenArticle())
 
 ```
