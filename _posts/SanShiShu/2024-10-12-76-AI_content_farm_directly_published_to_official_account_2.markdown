@@ -12,11 +12,11 @@ location: Guangzhou, China
 
 白天放着代码就在这里 run ，大概吐了 260 篇文章，因为没有专门优化内容 ( AI 吐什么就发什么 ) 以及没有进行发表 ，所以浏览量跟转发量均不多。
 
-![alt text](/photo/InPost/SanShiShu/75/image.png)
+![alt text](/photo/InPost/SanShiShu/76/image.png)
 
 其中最多的都是经济类的比较火 ( 也有可能是明星名人类太多内容农场搞了 )
 
-![alt text](/photo/InPost/SanShiShu/75/image-1.png)
+![alt text](/photo/InPost/SanShiShu/76/image-1.png)
 
 # 二、代码结构
 
