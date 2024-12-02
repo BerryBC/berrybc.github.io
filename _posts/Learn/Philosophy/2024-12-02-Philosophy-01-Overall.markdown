@@ -25,7 +25,7 @@ location: Guangzhou, China
 
 - [ ] 德谟克利特（Democritus）
 
-## 1. 古希腊哲学
+## 2. 古希腊哲学
 
 - [ ] 苏格拉底（Socrates）
 
@@ -33,7 +33,7 @@ location: Guangzhou, China
 
 - [ ] 亚里士多德（Aristotelianism）
 
-## 1. 希腊罗马哲学
+## 3. 希腊罗马哲学
 
 - [ ] 斯多葛主义（Stoicism）
 
@@ -41,19 +41,19 @@ location: Guangzhou, China
 
 - [ ] 新柏拉图主义（Neoplatonism）
 
-## 1. 基督教哲学
+## 4. 基督教哲学
 
 - [ ] 早期基督教哲学（如奥古斯丁 Augustine）
 
 - [ ] 经院哲学（Scholasticism，包括托马斯·阿奎那 Thomas Aquinas）
 
-## 1. 文艺复兴哲学
+## 5. 文艺复兴哲学
 
 - [ ] 人文主义（Humanism）
 
 - [ ] 自然哲学的复兴
 
-## 1. 近代哲学
+## 6. 近代哲学
 
 - [ ] 理性主义（Rationalism，如笛卡尔 Descartes, 斯宾诺莎 Spinoza, 莱布尼茨 Leibniz）
 
@@ -61,7 +61,7 @@ location: Guangzhou, China
 
 - [ ] 启蒙哲学（Enlightenment Philosophy）
 
-## 1. 19世纪哲学
+## 7. 19世纪哲学
 
 - [ ] 德国古典哲学（如康德 Kant, 黑格尔 Hegel, 费尔巴哈 Feuerbach）
 
@@ -71,7 +71,7 @@ location: Guangzhou, China
 
 - [ ] 马克思主义（Marxism）
 
-## 1. 20世纪哲学
+## 8. 20世纪哲学
 
 - [ ] 分析哲学（Analytic Philosophy）
 
