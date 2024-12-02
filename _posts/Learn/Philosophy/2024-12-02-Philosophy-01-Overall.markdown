@@ -2,7 +2,7 @@
 layout: post
 title:  哲学 - 01 - 整体
 date:   2024-12-02 17:18:14 +0800
-categories: 崔 BB 教学大纲
+categories: 崔BB教学大纲
 author: 崔秉龙
 location: Guangzhou, China
 ---
