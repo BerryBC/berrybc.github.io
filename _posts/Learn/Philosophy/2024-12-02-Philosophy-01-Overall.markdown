@@ -9,7 +9,25 @@ location: Guangzhou, China
 
 
 
-## 1. 自然哲学
+## 1. 哲学科普、哲学史
+
+- [ ] 苏菲的世界
+
+- [ ] 本书书名无法描述本书内容
+
+- [ ] 哲学家们都干了些什么
+
+## 2. 佛教
+
+- [ ] 正见
+
+## 3. 近代哲学
+
+- [ ] 逻辑哲学论
+
+- [ ] 人是一根能思想的苇草
+
+<!-- ## 1. 自然哲学
 
 - [ ] 米利都学派（Thales, Anaximander, Anaximenes）
 
@@ -87,4 +105,4 @@ location: Guangzhou, China
 
 - [ ] 西方马克思主义（Western Marxism）
 
-- [ ] 批判理论（Critical Theory）
+- [ ] 批判理论（Critical Theory） -->
