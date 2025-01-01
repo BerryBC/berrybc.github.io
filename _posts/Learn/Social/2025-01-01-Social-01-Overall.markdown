@@ -19,6 +19,8 @@ location: Guangzhou, China
 
 - [ ] 独裁者手册
 
+- [ ] 盗梦工厂
+
 ## 2. 经济
 
 - [ ] 凯恩斯大战哈耶克
