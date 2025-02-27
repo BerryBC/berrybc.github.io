@@ -10,6 +10,9 @@ location: Guangzhou, China
 
 ## 4. 那多比特呢！？
 
+紧接上一段 [捌拾- 量子态层析 以及 布洛赫球 (1)](https://berrybc.github.io/%E4%B8%89%E4%B8%96%E4%B9%A6%E8%AE%B0%E5%BD%95/80-Quantum_state_tomography_Bloch_Sphere_1/)
+
+
 理论上来说，三个量子比特的密度函数，出来的是一个 2 的三次方
 
 ( 别问我为什么知道，我也不知道物理意义 )
