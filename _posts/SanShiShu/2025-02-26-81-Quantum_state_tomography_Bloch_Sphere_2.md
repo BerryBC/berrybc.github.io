@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  捌拾- 量子态层析 以及 布洛赫球 (2)
+title:  捌拾壹- 量子态层析 以及 布洛赫球 (2)
 date:   2025-02-27 10:23:08 +0800
 categories: 三世书记录
 author: 崔秉龙
