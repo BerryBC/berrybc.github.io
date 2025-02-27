@@ -120,7 +120,7 @@ for strD in ['X','Y','Z']:
     # 计算密度函数
     sim_rho = sim_res.calc_density_matrix()
     # 计算期望值
-    # 先点成 密度函数 · 泡利 Z 矩阵
+    # 先点乘 密度函数 · 泡利 Z 矩阵
     # 再求迹
     expectation_value = np.trace(np.dot(sim_rho, sigma_Z)).real
     print( strD + " 期望值为:" + str(expectation_value))
