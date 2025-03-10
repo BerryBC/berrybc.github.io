@@ -1,3 +1,11 @@
+<!--
+ * @Descripttion:
+ * @Version: 1.0
+ * @Author: BerryBC
+ * @Date: 2025-03-10 14:47:30
+ * @LastEditors: BerryBC
+ * @LastEditTime: 2025-03-10 15:17:00
+-->
 ---
 layout: post
 title:  测试一下使用公式
@@ -23,5 +31,9 @@ location: Guangzhou, China
 
 
 人生如此艰，我们需要
-
 $ e = m c^2 $
+
+是不是我还可以这样？
+和这样~？
+
+还有这样~？
