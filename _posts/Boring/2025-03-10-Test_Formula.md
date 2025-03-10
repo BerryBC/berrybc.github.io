@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  问题的价值 ( Value of Question ) 公式
-date:   2025-02-02 20:50:58 +0800
+title:  测试一下使用公式
+date:   2025-03-10 14:50:58 +0800
 categories: 更无聊的人生
 author: 崔秉龙
 location: Guangzhou, China
