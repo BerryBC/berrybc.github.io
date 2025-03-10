@@ -8,6 +8,20 @@ location: Guangzhou, China
 ---
 
 
+
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$','$']]
+            }
+        });
+    </script>
+</head>
+
+
 以下数据均从各大地方搜刮下来，有些是 AI 生成的...很难一一列明出处
 
 ## 1. 量子比特的基本状态
