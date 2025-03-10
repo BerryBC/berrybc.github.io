@@ -1,11 +1,3 @@
-<!--
- * @Descripttion:
- * @Version: 1.0
- * @Author: BerryBC
- * @Date: 2025-03-10 14:47:30
- * @LastEditors: BerryBC
- * @LastEditTime: 2025-03-10 15:17:00
--->
 ---
 layout: post
 title:  测试一下使用公式
