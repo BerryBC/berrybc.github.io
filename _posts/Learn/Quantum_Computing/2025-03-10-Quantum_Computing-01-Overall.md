@@ -9,7 +9,7 @@ location: Guangzhou, China
 
 ## 基础数学
 
-[量子计算 - 02 - 数学基础与狄拉克符号](https://berrybc.github.io/%E5%B4%94bb%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/Mathematical_Foundations_and_Dirac_Notation/)
+[量子计算 - 02 - 数学基础与狄拉克符号](https://berrybc.github.io/%E5%B4%94bb%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/Quantum_Computing-02-Mathematical_Foundations_and_Dirac_Notation/)
 
 ## 前期学习笔记
 
