@@ -107,3 +107,25 @@ I门
 ## 11. 延迟门 （Delay门）
 
 ![alt text](/photo/InPost/Learn/Quantum_computing/3/17.png)
+
+## 12. RXX 门
+
+RXX门 / RZZ门 / RYY门
+
+![alt text](/photo/InPost/Learn/Quantum_computing/3/22.png)
+
+![alt text](/photo/InPost/Learn/Quantum_computing/3/23.png)
+
+![alt text](/photo/InPost/Learn/Quantum_computing/3/24.png)
+
+可以通过单量子门, 以及 CNOT 门来模拟 RXX门
+
+![alt text](/photo/InPost/Learn/Quantum_computing/3/25.png)
+
+## 13. U 门
+
+![alt text](/photo/InPost/Learn/Quantum_computing/3/26.png)
+
+就是说这个门才是所有门的数学基础
+
+![alt text](/photo/InPost/Learn/Quantum_computing/3/27.png)
