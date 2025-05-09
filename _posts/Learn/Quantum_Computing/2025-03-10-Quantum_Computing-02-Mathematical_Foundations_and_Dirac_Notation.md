@@ -61,3 +61,18 @@ AI 生成的有 ChatGLM ( 智谱清言 ) , OpenAI 等
 ![alt text](/photo/InPost/Learn/Quantum_computing/2/11.png)
 
 ![alt text](/photo/InPost/Learn/Quantum_computing/2/12.png)
+
+## 10. 酉变换 (Unitary Transformation)
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/13.png)
+
+“幺正矩阵”（Unitary Matrix）和“酉矩阵”（Unitary Matrix）指的是完全相同的概念。
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/14.png)
+
+## 11. 傅里叶变换
+
+一般可理解为时频变换，得知一个时变函数，把他转换为相应的频率对应函数
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/15.png)
+
