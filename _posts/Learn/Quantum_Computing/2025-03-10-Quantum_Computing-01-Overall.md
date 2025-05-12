@@ -24,3 +24,5 @@ location: Guangzhou, China
 [柒拾玖- 贝尔不等式](https://berrybc.github.io/%E4%B8%89%E4%B8%96%E4%B9%A6%E8%AE%B0%E5%BD%95/79-Bell_s-inequality/)
 
 [捌拾贰- 贝尔不等式 (2)](https://berrybc.github.io/%E4%B8%89%E4%B8%96%E4%B9%A6%E8%AE%B0%E5%BD%95/82-Bell_s-inequality_2/)
+
+[捌拾叁- 量子傅里叶变换](https://berrybc.github.io/%E4%B8%89%E4%B8%96%E4%B9%A6%E8%AE%B0%E5%BD%95/83-Quantum_fourier/)
