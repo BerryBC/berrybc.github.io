@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  捌拾肆- 量子傅里叶变换 (2)
-date:   2025-05-07 11:45:02 +0800
+date:   2025-05-13 11:45:02 +0800
 categories: 三世书记录
 author: 崔秉龙
 location: Guangzhou, China

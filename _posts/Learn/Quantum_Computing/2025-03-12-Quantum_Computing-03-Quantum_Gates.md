@@ -129,3 +129,9 @@ RXX门 / RZZ门 / RYY门
 就是说这个门才是所有门的数学基础
 
 ![alt text](/photo/InPost/Learn/Quantum_computing/3/27.png)
+
+## 14. CP 门 (Controlled Phase Gate, 受控相位门)
+
+![alt text](/photo/InPost/Learn/Quantum_computing/3/28.png)
+
+![alt text](/photo/InPost/Learn/Quantum_computing/3/29.png)
