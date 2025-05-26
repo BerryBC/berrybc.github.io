@@ -76,3 +76,220 @@ AI 生成的有 ChatGLM ( 智谱清言 ) , OpenAI 等
 
 ![alt text](/photo/InPost/Learn/Quantum_computing/2/15.png)
 
+## 12. 伴随 - 厄密共轭
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/16.png)
+
+ （读作“A dagger” 或 “A 的伴随”）就是算符 A 的厄米共轭（Hermitian conjugate 或 adjoint 操作）
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/17.png)
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/19.png)
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/20.png)
+
+## 12. 厄米算子 ( Hermitian operator )
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/18.png)
+
+## 13. 期望值的线性性质
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/21.png)
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/22.png)
+
+
+## 14. 范数 ( Norm )
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/23.png)
+
+## 15. 柯西-施瓦茨不等式 ( Cauchy-Schwarz Inequality )
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/24.png)
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/25.png)
+
+相对来说，就是两个向量 ( 设为 A 和 B )，其中这个不等式就是说两个向量的点积，小于两个向量长度的乘积
+
+如公式 `u · v = |u| |v| cos(θ)`
+
+## 16. 点积 ( Dot Product ) 、内积 ( Inner Product ) 、标量积 ( Scalar Product )
+
+![alt text](/photo/InPost/Learn/Quantum_computing/2/26.png)
+
+## 17. 量子电路的狄拉克描述形式
+
+在量子理论中，顺序是**极其重要**的。原因在于：
+
+### 17.1) 张量积不是交换的：
+
+$$
+A \otimes B \neq B \otimes A
+$$
+
+这两个操作作用在系统 $$\ket{\psi} = \ket{a} \otimes \ket{b}$$ 上时结果截然不同。例如：
+
+$$
+(H \otimes I)\ket{01} \neq (I \otimes H)\ket{01}
+$$
+
+前者将 $$H$$ 作用在第一个比特，后者作用在第二个。
+
+张量积空间中的对象是**有序对**，也就是说：
+
+> $$\ket{a} \otimes \ket{b} \neq \ket{b} \otimes \ket{a}$$，
+> 除非你明确使用 **SWAP 门** 做交换。
+
+
+### 17.2) 酉变换链也是非交换的：
+
+$$
+U_3 U_2 U_1 \ket{\psi} \neq U_1 U_2 U_3 \ket{\psi}
+$$
+
+在数学上，这是因为一般而言：
+
+$$
+[U_i, U_j] \neq 0 \quad (\text{即 } U_i U_j \neq U_j U_i)
+$$
+
+这和经典线性代数中的矩阵乘法一样，顺序会改变最终的变换效果。
+
+
+### 17.3) 酉变换的顺序对应于时间演化顺序
+
+狄拉克形式：
+
+$$
+\ket{\psi_{\text{out}}} = U_n \cdots U_2 U_1 \ket{\psi_{\text{in}}}
+$$
+
+这个表达式中，每个 $$U\_k$$ 是一个酉算符，也可以理解为量子电路中的一个“门”，作用在某个时间步。
+
+* $$U\_1$$ 最先作用在初态上；
+* $$U\_2$$ 再作用于 $$U\_1\ket{\psi}$$；
+* 最后 $$U\_n$$ 完成最后的操作。
+
+这就像时间的箭头从左向右，虽然我们在公式中是从右向左乘算符，但这正是它的**时间演化之秩序**。
+
+> 量子演化是有方向的！不是热力学第二定律意义上的时间箭头，而是**逻辑上因果演算的顺序结构**。
+
+
+
+### 17.4) 实验上顺序的重要性
+
+考虑以下两个电路：
+
+* 电路 A：先 Hadamard 后 CNOT（即产生 Bell 态）
+* 电路 B：先 CNOT 后 Hadamard（同样门，但顺序不同）
+
+它们产生的量子态**完全不同**。
+
+##### 电路 A：先 Hadamard 再 CNOT
+
+1. 作用 $$H \otimes I$$：
+
+   $$
+   (H \otimes I)\ket{00} = \frac{1}{\sqrt{2}}(\ket{00} + \ket{10})
+   $$
+
+2. 再作用 CNOT：
+
+   $$
+   U_{\text{CNOT}} \left( \frac{1}{\sqrt{2}}(\ket{00} + \ket{10}) \right) = \frac{1}{\sqrt{2}}(\ket{00} + \ket{11}) = \ket{\Phi^+}
+   $$
+
+---
+
+##### 电路 B：先 CNOT 再 Hadamard
+
+1. 首先作用 CNOT：
+
+   $$
+   U_{\text{CNOT}} \ket{00} = \ket{00}
+   $$
+
+2. 然后作用 $$H \otimes I$$：
+
+   $$
+   (H \otimes I)\ket{00} = \frac{1}{\sqrt{2}}(\ket{00} + \ket{10})
+   $$
+
+##### 结论：**它们不一样！但初态为 |00> 时，B 电路恰好与 A 的第一步相同。**
+
+* 电路 A 得到的是 Bell 态：$$\ket{\Phi^+}$$
+* 电路 B 仅施加了 Hadamard 到第一个比特，结果仍是**未纠缠态**
+
+您说这两个结果一样，是因为**我在前文举的电路 B 的推导只走了一步**，它在 CNOT 后立即施加 $$H \otimes I$$，其实产生的只是：
+
+$$
+(H \otimes I)U_{\text{CNOT}} \ket{00} = (H \otimes I)\ket{00} = \frac{1}{\sqrt{2}}(\ket{00} + \ket{10})
+$$
+
+这 **与 Bell 态不同**，因为 $$\frac{1}{\sqrt{2}}(\ket{00} + \ket{10})$$ 是**可分的**（不纠缠），而 $$\frac{1}{\sqrt{2}}(\ket{00} + \ket{11})$$ 是纠缠态。
+
+---
+
+##### 关键点：**纠缠性的差异揭示了量子门顺序的重要性**
+
+虽然在某些特定初态下（如 $$\ket{00}$$），部分门序列看似“结果一致”，但这只是偶然的对易性发生了。
+
+但若我们考虑更一般的输入，比如 $$\ket{10}$$ 或 $$\ket{+0}$$，那么两种顺序将给出完全不同的结果和测量统计。
+
+---
+
+##### 数学补充：一般而言，
+
+$$
+U_{\text{CNOT}} (H \otimes I) \neq (H \otimes I) U_{\text{CNOT}}
+$$
+
+这两者之差源于非交换性，所以门顺序一变，通常：
+
+* 态的纠缠度变了
+* 测量结果概率变了
+* 整个干涉结构也变了
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$$','$$']]
+            }
+        });
+    </script>
+</head>

@@ -11,7 +11,7 @@ location: Guangzhou, China
 
 
 人生如此艰，我们需要
-$ e = m c^2 $
+$$ e = m c^2 $$
 
 是不是我还可以这样？
 和这样~？
@@ -29,7 +29,7 @@ $ e = m c^2 $
         MathJax.Hub.Config({
             tex2jax: {
             skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$','$']]
+            inlineMath: [['$$','$$']]
             }
         });
     </script>
