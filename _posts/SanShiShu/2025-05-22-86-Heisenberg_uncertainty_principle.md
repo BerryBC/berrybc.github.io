@@ -7,6 +7,25 @@ author: 崔秉龙
 location: Guangzhou, China
 ---
 
+
+
+
+
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$$','$$']]
+            }
+        });
+    </script>
+</head>
+
+
+
+
 ## 继续学习
 
 Hello，我又来了，又来一个简单的（看到后续的非常复杂，所以先不看先）
@@ -89,6 +108,21 @@ Hello，我又来了，又来一个简单的（看到后续的非常复杂，所
 
 ![alt text](/photo/InPost/SanShiShu/86/10.png)
 
------------
+这里又有点懵了，
 
-我感觉我不行了，突然间又忙起来了，先去努力工作先
+`ΔA=A−⟨A⟩` 这部分，因为一个矩阵减去一个实数，应该是一个矩阵
+
+而下面的 `∥f∥=ΔA` 又是一个实数呢？
+
+问了一下大模型，他说
+
+![alt text](/photo/InPost/SanShiShu/86/11.png)
+
+好吧，一个是实数，一个是算符，好吧
+
+
+## 5. 最难的地方了，什么是对易和反对易
+
+好了，实在是太难了，我决定先不看，下次再来
+
+`再见`

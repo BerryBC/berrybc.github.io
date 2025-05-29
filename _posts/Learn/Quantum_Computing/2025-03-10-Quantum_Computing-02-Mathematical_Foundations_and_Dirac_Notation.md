@@ -9,6 +9,17 @@ location: Guangzhou, China
 
 
 
+<head>
+    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script type="text/x-mathjax-config">
+        MathJax.Hub.Config({
+            tex2jax: {
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+            inlineMath: [['$$','$$']]
+            }
+        });
+    </script>
+</head>
 
 
 以下数据均从各大地方搜刮下来，有些是 AI 生成的...很难一一列明出处
@@ -251,45 +262,60 @@ $$
 * 整个干涉结构也变了
 
 
+## 18. 复共轭
+
+### 18.1) 复共轭表达
+
+其中 * 表示复共轭。对于一个复数 `z = a + bi`，它的复共轭 $$ z^* $$ 定义为 `a - bi` 。在这个表达式中， `z` 和 `z*` 分别表示某个复数的实部和虚部的组合以及其实部相同、虚部相反的组合。具体来说，表达式中的 $$ z - z^* = 2i \cdot \text{Im}(z) $$ 意味着 `z` 减去它的复共轭等于 `z` 虚部的两倍乘以虚数单位 `i` 。这是因为 $$z - z^*$$ 会消去实部，只留下虚部的两倍。
 
 
+在矩阵代数中，对于一个给定的矩阵 `z`，其复共轭矩阵 `z*` （也称为共轭转置或 Hermitian 转置）是通过将矩阵中的每个元素取其复共轭，然后对矩阵进行转置得到的。
+对于一个 3x3 的矩阵 `z`，假设其元素为 $$ z_{ij} $$，其中 `i` 和 `j` 分别是行和列的索引（从 1 到 3），那么 `z` 的复共轭矩阵 `z*` 的元素将是 $$ \overline{z_{ji}}   ，其中   \overline{z_{ji}}   表示  z_{ji}  的复共轭。$$
+例如，如果矩阵 `z` 是：
+
+$$
+z = \begin{bmatrix}
+a + bi & c + di & e + fi \\
+g + hi & i + ji & k + li \\
+m + ni & o + pi & q + ri \\
+\end{bmatrix}
+$$
+
+那么 `z` 的复共轭矩阵 `z*` 将是：
+
+$$
+z^* = \begin{bmatrix}
+\overline{a + bi} & \overline{g + hi} & \overline{m + ni} \\
+\overline{c + di} & \overline{i + ji} & \overline{o + pi} \\
+\overline{e + fi} & \overline{k + li} & \overline{q + ri} \\
+\end{bmatrix}
+$$
+
+其中，$$ \overline{a + bi} $$ 表示 `a - bi`，即复数 `a + bi` 的复共轭。同理，其他元素也取其复共轭。然后，矩阵 `z*` 是通过将 `z` 的行和列互换得到的，即 `z*` 是 `z` 的转置。
+
+### 18.2) 厄米算子的复共轭
 
 
+$$
+\left( \langle \psi | \hat{O} | \psi \rangle \right)^*
+= \langle \psi | \hat{O}^\dagger | \psi \rangle
+$$
 
+所以我们计算：
 
+$$
+\left( \langle \psi | XY | \psi \rangle \right)^* = \langle \psi | (XY)^\dagger | \psi \rangle
+$$
 
+运用共轭反转法则：
 
+$$
+(XY)^\dagger = Y^\dagger X^\dagger = YX
+\quad \text{（因为 X,Y 是厄米的）}
+$$
 
+于是有：
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$$','$$']]
-            }
-        });
-    </script>
-</head>
+$$
+\left( \langle XY \rangle \right)^* = \langle YX \rangle
+$$

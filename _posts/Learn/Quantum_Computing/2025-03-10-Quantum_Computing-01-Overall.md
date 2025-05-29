@@ -29,4 +29,6 @@ location: Guangzhou, China
 
 [捌拾肆- 量子傅里叶变换 (2)](https://berrybc.github.io/%E4%B8%89%E4%B8%96%E4%B9%A6%E8%AE%B0%E5%BD%95/84-Quantum_fourier_2/)
 
-[捌拾肆- 量子傅里叶变换 (3)](https://berrybc.github.io/%E4%B8%89%E4%B8%96%E4%B9%A6%E8%AE%B0%E5%BD%95/85-Quantum_fourier_3/)
+[捌拾伍- 量子傅里叶变换 (3)](https://berrybc.github.io/%E4%B8%89%E4%B8%96%E4%B9%A6%E8%AE%B0%E5%BD%95/85-Quantum_fourier_3/)
+
+[捌拾陆- 海森堡不确定性原理](https://berrybc.github.io/%E4%B8%89%E4%B8%96%E4%B9%A6%E8%AE%B0%E5%BD%95/86-Heisenberg_uncertainty_principle/)
