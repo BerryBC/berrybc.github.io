@@ -10,22 +10,23 @@ location: Guangzhou, China
 
 
 <head>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
-    <script type="text/x-mathjax-config">
-        MathJax.Hub.Config({
-            tex2jax: {
-               skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-               inlineMath: [['$$','$$']]
-            },
-            TeX: {
-               Macros: {
-               ket: ["\\left| #1 \\right\\rangle", 1],
-               bra: ["\\left\\langle #1 \\right|", 1],
-               braket: ["\\left\\langle #1 \\middle| #2 \\right\\rangle", 2]
-               }
-            }
-        });
-    </script>
+  <script>
+    window.MathJax = {
+      tex: {
+        inlineMath: [['$$', '$$']],
+        macros: {
+          ket: ["\\left| #1 \\right\\rangle", 1],
+          bra: ["\\left\\langle #1 \\right|", 1],
+          braket: ["\\left\\langle #1 \\middle| #2 \\right\\rangle", 2]
+        }
+      },
+      loader: {load: ['[tex]/ams']},
+      tex: {
+        packages: {'[+]': ['ams']}
+      }
+    };
+  </script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 </head>
 
 
@@ -386,3 +387,14 @@ $$
 $$
 \left( \langle XY \rangle \right)^* = \langle YX \rangle
 $$
+
+
+------
+
+
+------
+
+
+------
+
+$$\ket{\psi}$$
