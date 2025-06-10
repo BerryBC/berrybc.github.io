@@ -10,7 +10,7 @@ location: Guangzhou, China
 
 
 <head>
-    <script src="https://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML" type="text/javascript"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.9/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
@@ -18,10 +18,11 @@ location: Guangzhou, China
                inlineMath: [['$$','$$']]
             },
             TeX: {
-                  extensions: ["AMSmath.js", "AMSsymbols.js"],
-                  Macros: {
-                     ket: ["\\langle #1 \\vert", 1]
-                  }
+               Macros: {
+               ket: ["\\left| #1 \\right\\rangle", 1],
+               bra: ["\\left\\langle #1 \\right|", 1],
+               braket: ["\\left\\langle #1 \\middle| #2 \\right\\rangle", 2]
+               }
             }
         });
     </script>
@@ -243,15 +244,15 @@ $$
 (H \otimes I)U_{\text{CNOT}} \left|{00}\right\rangle = (H \otimes I)\left|{00}\right\rangle = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle)
 $$
 
-这 **与 Bell 态不同**，因为 $$\frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle)$$ 是**可分的**（不纠缠），而 $$\frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{11}\right\rangle)$$ 是纠缠态。
+这 **与 Bell 态不同**，因为 $$ \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle) $$ 是**可分的**（不纠缠），而 $$ \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{11}\right\rangle) $$ 是纠缠态。
 
 ---
 
 ##### 关键点：**纠缠性的差异揭示了量子门顺序的重要性**
 
-虽然在某些特定初态下（如 $$\left|{00}\right\rangle$$），部分门序列看似“结果一致”，但这只是偶然的对易性发生了。
+虽然在某些特定初态下（如 $$ \left|{00}\right\rangle $$），部分门序列看似“结果一致”，但这只是偶然的对易性发生了。
 
-但若我们考虑更一般的输入，比如 $$\left|{10}\right\rangle$$ 或 $$\left|{+0}\right\rangle$$，那么两种顺序将给出完全不同的结果和测量统计。
+但若我们考虑更一般的输入，比如 $$ \left|{10}\right\rangle $$ 或 $$ \left|{+0}\right\rangle $$，那么两种顺序将给出完全不同的结果和测量统计。
 
 ---
 
