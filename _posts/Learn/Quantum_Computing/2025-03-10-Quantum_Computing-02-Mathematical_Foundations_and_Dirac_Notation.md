@@ -155,7 +155,7 @@ $$
 
 张量积空间中的对象是**有序对**，也就是说：
 
-> $$ \left|{a}\right\rangle \otimes \left|{b}\right\rangle \neq \left|{b}\right\rangle \otimes \left|{a}\right\rangle $$，
+$$ \left|{a}\right\rangle \otimes \left|{b}\right\rangle \neq \left|{b}\right\rangle \otimes \left|{a}\right\rangle $$
 > 除非你明确使用 **SWAP 门** 做交换。
 
 
@@ -184,9 +184,14 @@ $$
 
 这个表达式中，每个 $$U\_k$$ 是一个酉算符，也可以理解为量子电路中的一个“门”，作用在某个时间步。
 
-* $$U\_1$$ 最先作用在初态上；
-* $$U\_2$$ 再作用于 $$U\_1\left|{\psi}\right\rangle$$；
-* 最后 $$U\_n$$ 完成最后的操作。
+$$U\_1$$
+最先作用在初态上；
+$$U\_2$$
+再作用于
+$$ U\_1\left|{\psi}\right\rangle $$
+；最后
+$$U\_n$$
+完成最后的操作。
 
 这就像时间的箭头从左向右，虽然我们在公式中是从右向左乘算符，但这正是它的**时间演化之秩序**。
 
@@ -235,7 +240,8 @@ $$
 
 ##### 结论：**它们不一样！但初态为 |00> 时，B 电路恰好与 A 的第一步相同。**
 
-* 电路 A 得到的是 Bell 态：$$\ket{\Phi^+}$$
+* 电路 A 得到的是 Bell 态：
+  $$ \ket{\Phi^+} $$
 * 电路 B 仅施加了 Hadamard 到第一个比特，结果仍是**未纠缠态**
 
 您说这两个结果一样，是因为**我在前文举的电路 B 的推导只走了一步**，它在 CNOT 后立即施加 $$H \otimes I$$，其实产生的只是：
@@ -244,15 +250,25 @@ $$
 (H \otimes I)U_{\text{CNOT}} \left|{00}\right\rangle = (H \otimes I)\left|{00}\right\rangle = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle)
 $$
 
-这 **与 Bell 态不同**，因为 $$ \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle) $$ 是**可分的**（不纠缠），而 $$ \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{11}\right\rangle) $$ 是纠缠态。
+这 **与 Bell 态不同**，因为
+$$ \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle) $$
+是**可分的**（不纠缠），而
+$$ \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{11}\right\rangle) $$
+是纠缠态。
 
 ---
 
 ##### 关键点：**纠缠性的差异揭示了量子门顺序的重要性**
 
-虽然在某些特定初态下（如 $$ \left|{00}\right\rangle $$），部分门序列看似“结果一致”，但这只是偶然的对易性发生了。
+虽然在某些特定初态下（如
+$$ \left|{00}\right\rangle $$
+），部分门序列看似“结果一致”，但这只是偶然的对易性发生了。
 
-但若我们考虑更一般的输入，比如 $$ \left|{10}\right\rangle $$ 或 $$ \left|{+0}\right\rangle $$，那么两种顺序将给出完全不同的结果和测量统计。
+但若我们考虑更一般的输入，比如
+$$ \left|{10}\right\rangle $$
+或
+$$ \left|{+0}\right\rangle $$
+，那么两种顺序将给出完全不同的结果和测量统计。
 
 ---
 
