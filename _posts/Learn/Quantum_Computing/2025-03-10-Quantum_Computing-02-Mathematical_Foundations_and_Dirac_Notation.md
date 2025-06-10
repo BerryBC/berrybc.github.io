@@ -145,7 +145,9 @@ $$
 A \otimes B \neq B \otimes A
 $$
 
-这两个操作作用在系统 $$ \ket{\psi} = \ket{a} \otimes \ket{b} $$ 上时结果截然不同。例如：
+这两个操作作用在系统
+$$ \ket{\psi} = \ket{a} \otimes \ket{b} $$
+上时结果截然不同。例如：
 
 $$
 (H \otimes I)\ket{01} \neq (I \otimes H)\ket{01}
@@ -188,7 +190,9 @@ $$U\_1$$
 最先作用在初态上；
 $$U\_2$$
 再作用于
-$$ U\_1\left|{\psi}\right\rangle $$
+$$
+U\_1\left|{\psi}\right\rangle
+$$
 ；最后
 $$U\_n$$
 完成最后的操作。
@@ -212,15 +216,15 @@ $$U\_n$$
 
 1. 作用 $$H \otimes I$$：
 
-   $$
-   (H \otimes I)\left|{00}\right\rangle = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle)
-   $$
+$$
+(H \otimes I)\left|{00}\right\rangle = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle)
+$$
 
-2. 再作用 CNOT：
+1. 再作用 CNOT：
 
-   $$
-   U_{\text{CNOT}} \left( \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle) \right) = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{11}\right\rangle) = \left|{\Phi^+}\right\rangle
-   $$
+$$
+U_{\text{CNOT}} \left( \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle) \right) = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{11}\right\rangle) = \left|{\Phi^+}\right\rangle
+$$
 
 ---
 
@@ -228,15 +232,15 @@ $$U\_n$$
 
 1. 首先作用 CNOT：
 
-   $$
-   U_{\text{CNOT}} \left|{00}\right\rangle = \left|{00}\right\rangle
-   $$
+$$
+U_{\text{CNOT}} \left|{00}\right\rangle = \left|{00}\right\rangle
+$$
 
-2. 然后作用 $$H \otimes I$$：
+1. 然后作用 $$H \otimes I$$：
 
-   $$
-   (H \otimes I)\left|{00}\right\rangle = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle)
-   $$
+$$
+(H \otimes I)\left|{00}\right\rangle = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle)
+$$
 
 ##### 结论：**它们不一样！但初态为 |00> 时，B 电路恰好与 A 的第一步相同。**
 
@@ -251,9 +255,13 @@ $$
 $$
 
 这 **与 Bell 态不同**，因为
+
 $$ \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle) $$
+
 是**可分的**（不纠缠），而
+
 $$ \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{11}\right\rangle) $$
+
 是纠缠态。
 
 ---
@@ -261,13 +269,19 @@ $$ \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{11}\right\rangle) $$
 ##### 关键点：**纠缠性的差异揭示了量子门顺序的重要性**
 
 虽然在某些特定初态下（如
+
 $$ \left|{00}\right\rangle $$
+
 ），部分门序列看似“结果一致”，但这只是偶然的对易性发生了。
 
 但若我们考虑更一般的输入，比如
+
 $$ \left|{10}\right\rangle $$
+
 或
+
 $$ \left|{+0}\right\rangle $$
+
 ，那么两种顺序将给出完全不同的结果和测量统计。
 
 ---
