@@ -146,7 +146,11 @@ A \otimes B \neq B \otimes A
 $$
 
 这两个操作作用在系统
-$$ \left|{\psi}\right\rangle = \left|{a}\right\rangle \otimes \left|{b}\right\rangle $$
+
+$$
+\left|{\psi}\right\rangle = \left|{a}\right\rangle \otimes \left|{b}\right\rangle
+$$
+
 上时结果截然不同。例如：
 
 $$
@@ -157,7 +161,10 @@ $$
 
 张量积空间中的对象是**有序对**，也就是说：
 
-$$ \left|{a}\right\rangle \otimes \left|{b}\right\rangle \neq \left|{b}\right\rangle \otimes \left|{a}\right\rangle $$
+$$
+\left|{a}\right\rangle \otimes \left|{b}\right\rangle \neq \left|{b}\right\rangle \otimes \left|{a}\right\rangle
+$$
+
 > 除非你明确使用 **SWAP 门** 做交换。
 
 
@@ -187,12 +194,17 @@ $$
 这个表达式中，每个 $$U\_k$$ 是一个酉算符，也可以理解为量子电路中的一个“门”，作用在某个时间步。
 
 $$U\_1$$
+
 最先作用在初态上；
+
 $$U\_2$$
+
 再作用于
+
 $$
 U\_1\left|{\psi}\right\rangle
 $$
+
 ；最后
 $$U\_n$$
 完成最后的操作。
