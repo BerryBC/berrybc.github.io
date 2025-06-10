@@ -14,19 +14,16 @@ location: Guangzhou, China
     <script type="text/x-mathjax-config">
         MathJax.Hub.Config({
             tex2jax: {
-            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
-            inlineMath: [['$$','$$']]
+               skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'],
+               inlineMath: [['$$','$$']]
+            },
+            TeX: {
+                  extensions: ["AMSmath.js", "AMSsymbols.js"],
+                  Macros: {
+                     ket: ["\\langle #1 \\vert", 1]
+                  }
             }
         });
-        MathJax = {
-            tex: {
-               macros: {
-                  ket: ["\\left| #1 \\right\\rangle", 1],
-                  bra: ["\\left\\langle #1 \\right|", 1],
-                  braket: ["\\left\\langle #1 \\middle| #2 \\right\\rangle", 2]
-               }
-            }
-         };
     </script>
 </head>
 
@@ -157,14 +154,14 @@ $$
 
 张量积空间中的对象是**有序对**，也就是说：
 
-> $$ \ket{a} \otimes \ket{b} \neq \ket{b} \otimes \ket{a} $$，
+> $$ \left|{a}\right\rangle \otimes \left|{b}\right\rangle \neq \left|{b}\right\rangle \otimes \left|{a}\right\rangle $$，
 > 除非你明确使用 **SWAP 门** 做交换。
 
 
 ### 17.2) 酉变换链也是非交换的：
 
 $$
-U_3 U_2 U_1 \ket{\psi} \neq U_1 U_2 U_3 \ket{\psi}
+U_3 U_2 U_1 \left|{\psi}\right\rangle \neq U_1 U_2 U_3 \left|{\psi}\right\rangle
 $$
 
 在数学上，这是因为一般而言：
@@ -181,13 +178,13 @@ $$
 狄拉克形式：
 
 $$
-\ket{\psi_{\text{out}}} = U_n \cdots U_2 U_1 \ket{\psi_{\text{in}}}
+\left|{\psi_{\text{out}}}\right\rangle = U_n \cdots U_2 U_1 \left|{\psi_{\text{in}}}\right\rangle
 $$
 
 这个表达式中，每个 $$U\_k$$ 是一个酉算符，也可以理解为量子电路中的一个“门”，作用在某个时间步。
 
 * $$U\_1$$ 最先作用在初态上；
-* $$U\_2$$ 再作用于 $$U\_1\ket{\psi}$$；
+* $$U\_2$$ 再作用于 $$U\_1\left|{\psi}\right\rangle$$；
 * 最后 $$U\_n$$ 完成最后的操作。
 
 这就像时间的箭头从左向右，虽然我们在公式中是从右向左乘算符，但这正是它的**时间演化之秩序**。
@@ -210,13 +207,13 @@ $$
 1. 作用 $$H \otimes I$$：
 
    $$
-   (H \otimes I)\ket{00} = \frac{1}{\sqrt{2}}(\ket{00} + \ket{10})
+   (H \otimes I)\left|{00}\right\rangle = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle)
    $$
 
 2. 再作用 CNOT：
 
    $$
-   U_{\text{CNOT}} \left( \frac{1}{\sqrt{2}}(\ket{00} + \ket{10}) \right) = \frac{1}{\sqrt{2}}(\ket{00} + \ket{11}) = \ket{\Phi^+}
+   U_{\text{CNOT}} \left( \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle) \right) = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{11}\right\rangle) = \left|{\Phi^+}\right\rangle
    $$
 
 ---
@@ -226,13 +223,13 @@ $$
 1. 首先作用 CNOT：
 
    $$
-   U_{\text{CNOT}} \ket{00} = \ket{00}
+   U_{\text{CNOT}} \left|{00}\right\rangle = \left|{00}\right\rangle
    $$
 
 2. 然后作用 $$H \otimes I$$：
 
    $$
-   (H \otimes I)\ket{00} = \frac{1}{\sqrt{2}}(\ket{00} + \ket{10})
+   (H \otimes I)\left|{00}\right\rangle = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle)
    $$
 
 ##### 结论：**它们不一样！但初态为 |00> 时，B 电路恰好与 A 的第一步相同。**
@@ -243,18 +240,18 @@ $$
 您说这两个结果一样，是因为**我在前文举的电路 B 的推导只走了一步**，它在 CNOT 后立即施加 $$H \otimes I$$，其实产生的只是：
 
 $$
-(H \otimes I)U_{\text{CNOT}} \ket{00} = (H \otimes I)\ket{00} = \frac{1}{\sqrt{2}}(\ket{00} + \ket{10})
+(H \otimes I)U_{\text{CNOT}} \left|{00}\right\rangle = (H \otimes I)\left|{00}\right\rangle = \frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle)
 $$
 
-这 **与 Bell 态不同**，因为 $$\frac{1}{\sqrt{2}}(\ket{00} + \ket{10})$$ 是**可分的**（不纠缠），而 $$\frac{1}{\sqrt{2}}(\ket{00} + \ket{11})$$ 是纠缠态。
+这 **与 Bell 态不同**，因为 $$\frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{10}\right\rangle)$$ 是**可分的**（不纠缠），而 $$\frac{1}{\sqrt{2}}(\left|{00}\right\rangle + \left|{11}\right\rangle)$$ 是纠缠态。
 
 ---
 
 ##### 关键点：**纠缠性的差异揭示了量子门顺序的重要性**
 
-虽然在某些特定初态下（如 $$\ket{00}$$），部分门序列看似“结果一致”，但这只是偶然的对易性发生了。
+虽然在某些特定初态下（如 $$\left|{00}\right\rangle$$），部分门序列看似“结果一致”，但这只是偶然的对易性发生了。
 
-但若我们考虑更一般的输入，比如 $$\ket{10}$$ 或 $$\ket{+0}$$，那么两种顺序将给出完全不同的结果和测量统计。
+但若我们考虑更一般的输入，比如 $$\left|{10}\right\rangle$$ 或 $$\left|{+0}\right\rangle$$，那么两种顺序将给出完全不同的结果和测量统计。
 
 ---
 
