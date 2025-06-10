@@ -18,6 +18,15 @@ location: Guangzhou, China
             inlineMath: [['$$','$$']]
             }
         });
+        MathJax = {
+            tex: {
+               macros: {
+                  ket: ["\\left| #1 \\right\\rangle", 1],
+                  bra: ["\\left\\langle #1 \\right|", 1],
+                  braket: ["\\left\\langle #1 \\middle| #2 \\right\\rangle", 2]
+               }
+            }
+         };
     </script>
 </head>
 
@@ -138,17 +147,17 @@ $$
 A \otimes B \neq B \otimes A
 $$
 
-这两个操作作用在系统 $$\ket{\psi} = \ket{a} \otimes \ket{b}$$ 上时结果截然不同。例如：
+这两个操作作用在系统 $$ \ket{\psi} = \ket{a} \otimes \ket{b} $$ 上时结果截然不同。例如：
 
 $$
 (H \otimes I)\ket{01} \neq (I \otimes H)\ket{01}
 $$
 
-前者将 $$H$$ 作用在第一个比特，后者作用在第二个。
+前者将 $$ H $$ 作用在第一个比特，后者作用在第二个。
 
 张量积空间中的对象是**有序对**，也就是说：
 
-> $$\ket{a} \otimes \ket{b} \neq \ket{b} \otimes \ket{a}$$，
+> $$ \ket{a} \otimes \ket{b} \neq \ket{b} \otimes \ket{a} $$，
 > 除非你明确使用 **SWAP 门** 做交换。
 
 
