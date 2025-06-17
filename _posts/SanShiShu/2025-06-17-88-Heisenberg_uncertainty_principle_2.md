@@ -136,7 +136,7 @@ $$ \Delta X=( \langle X^2 \rangle - \langle X \rangle^2 ) ^{1/2} \\ $$
 
 $$
 \begin{aligned}
-[\Delta (X) \Delta (Y)]^2-| \langle Z \rangle|^2&=(1-{sin}^2 \theta {cos}^2 \phi)(1- {sin}^2 \theta {sin}^2 \phi)-{cos}^2 \theta \\
+\left[\Delta (X) \Delta (Y)\right]^2-| \langle Z \rangle|^2&=(1-{sin}^2 \theta {cos}^2 \phi)(1- {sin}^2 \theta {sin}^2 \phi)-{cos}^2 \theta \\
 &={cos}^2 \phi {sin}^2 \phi {sin}^4 \theta \geq 0
 \end{aligned}
 $$
