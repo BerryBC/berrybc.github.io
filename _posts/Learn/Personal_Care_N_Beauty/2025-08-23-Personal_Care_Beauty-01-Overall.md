@@ -13,3 +13,7 @@ location: Guangzhou, China
 [关键字典](https://berrybc.github.io/%E5%B4%94bb%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/Personal_Care_Beauty-02-Dictionary/)
 
 [敏感肌](https://berrybc.github.io/%E5%B4%94bb%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/Personal_Care_Beauty-03-Sensitive_Skin/)
+
+[护肤品成分](https://berrybc.github.io/%E5%B4%94bb%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/Personal_Care_Beauty-04-Skincare_Ingredients/)
+
+[酒精](https://berrybc.github.io/%E5%B4%94bb%E6%95%99%E5%AD%A6%E5%A4%A7%E7%BA%B2/Personal_Care_Beauty-05-Ethanol/)
