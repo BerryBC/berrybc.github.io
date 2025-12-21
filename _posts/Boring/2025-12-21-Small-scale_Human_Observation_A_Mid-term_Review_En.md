@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  A Mid-to-Late Stage Summary of a Small ‘Human Observation Project’
+title:  Mid-to-Late Stage Summary of a Small - Human Observation Project
 date:   2025-12-21 21:49:38 +0800
 categories: 更无聊的人生
 author: 崔秉龙
