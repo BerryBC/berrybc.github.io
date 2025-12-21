@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Mid-to-Late Stage Summary of a Small - Human Observation Project
-date:   2025-12-21 21:49:38 +0800
+date:   2025-12-21 21:30:38 +0800
 categories: 更无聊的人生
 author: 崔秉龙
 location: Guangzhou, China
