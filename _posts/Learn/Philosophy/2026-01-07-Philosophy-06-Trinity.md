@@ -13,7 +13,7 @@ location: Guangzhou, China
 
 在此单纯从哲学的角度浅浅说一下
 
-## 多神教到单神教的本质区别
+## 一、多神教到单神教的本质区别
 
 在某宗教公开课上，曾说：
 
@@ -25,7 +25,7 @@ location: Guangzhou, China
 - 单神教
   - 绝对顺从：神人界限分明，强调人对唯一神的绝对信仰与服从
 
-## 为什么需要三位一体
+## 二、为什么需要三位一体
 
 而 基督教 的各经文中，有对服从对象的各种描述，如：
 
@@ -46,9 +46,9 @@ location: Guangzhou, China
 
 所以，三位一体就是为了维持这种说法
 
-## 概念理解
+## 三、概念理解
 
-### 同一神性 （One Essence / One Being）
+### 3.1 同一神性 （One Essence / One Being）
 
 这里的“神性”（本质）指的是：
 
@@ -62,7 +62,7 @@ location: Guangzhou, China
 
 他们不是三种“等级”，而是**同一个 “是什么”**。
 
-### 三个位格（Three Persons）
+### 3.2 三个位格（Three Persons）
 
 **“位格（Person / Hypostasis）”不是“人”**，而是指：
 
@@ -83,7 +83,7 @@ location: Guangzhou, China
 
 **他们彼此区分，但不彼此分离。**
 
-### 不能以 形态论（Modalism） 论述
+### 3.3 不能以 形态论（Modalism） 论述
 
 因为他们不是同一个存在的不同形态，也是因为经文中有各种描述，如：
 
@@ -102,7 +102,7 @@ location: Guangzhou, China
 就是为了凸显神的唯一性
 
 
-### 不能以 次级神论（Arianism） 论述
+### 3.4 不能以 次级神论（Arianism） 论述
 
 `次级神论` 描述的，是 `圣子` 跟人类一样都是 `受造物` ，但仅是 `更高级` 的
 
@@ -115,7 +115,7 @@ location: Guangzhou, China
 
 
 
-## 存在的意义
+## 四、存在的意义
 
 因为从教义来说，经文是神的话语，是不会错的。
 
